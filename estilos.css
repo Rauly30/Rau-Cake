@@ -1,0 +1,115 @@
+
+#logo{
+    width: 100px ;
+}
+
+h1, h2, h3 {
+    font-size: 40px; 
+    color: #0000008d;
+    transition: all 0.3s; 
+    transform: scale(1); 
+  }
+  
+  #Productos:hover h1, 
+  #Productos:hover h2,
+  #Productos:hover h3,
+  #Contacto:hover h1, 
+  #Contacto:hover h2, 
+  #Contacto:hover h3
+  #Animación:hover h1, 
+  #Animación:hover h2, 
+  #Animación:hover h3 {
+    font-size: 36px; 
+    color: #371b1b; /* Color al pasar el mouse */
+    transform: scale(1.4); /* Escala de zoom al pasar el mouse */
+  }
+  
+
+#UBA {
+    width: 200%;
+}
+#logof{
+    width: 100px ;
+    margin: 20px;
+}
+.texto-rosa {
+    color: rgba(241, 123, 182, 0.824);
+  }
+#carouselExample{
+    width: 500px;
+}
+
+.btn{
+    background-color: deeppink;
+    border-radius: 5px;
+    border-color: rgb(255, 0, 0);
+}
+
+.container{
+    max-width: 1000px;
+}
+
+.container-fluid{
+    white-space: 500px;
+}
+
+.card-img-top{
+    width: 285px;
+    height: 230px;
+    transition: all 0.3s; /* Transición suave para todos los cambios */
+    transform: scale(1); /* Escala normal en estado normal */
+    border: 5px solid transparent; /* Marco transparente */
+}
+
+.card-img-top:hover {
+    width: 300px; 
+    height: 245px; 
+    border: 5px solid rgb(173, 7, 90);
+    transform: scale(1.1); /* Efecto de zoom al pasar el mouse */
+}
+
+.card{
+    width: 500px; /* Ajusta el ancho según tus necesidades */
+    margin: 0 auto; /* Para centrar la línea */
+    margin-top: 30px; 
+    border-radius: 20px;
+}
+
+.card:hover {
+    border: 5px solid rgb(173, 7, 90); /* Marco con color al pasar el mouse */
+  }
+
+body{
+    background-color: rgb(220, 145, 172);
+    scroll-behavior: smooth;
+    
+}
+.d-block{
+    height: 340px;
+}
+.pink-line {
+    border: none;
+    height: 8px;
+    background-color: rgb(17, 10, 14);
+    width: 100%; /* Ajusta el ancho según tus necesidades */
+    margin: 0 auto; /* Para centrar la línea */
+    margin-top: 10px; /* Ajusta el margen superior según tus necesidades */
+}
+
+#carouselExample {
+    top: 10px; ;
+    transform-origin: center;
+    transition: transform 0.3s ease;
+  }
+
+  #ponquecito {
+
+    height: 100vh; /* Ajusta el alto del cuerpo al 100% del viewport height */
+    display: flex;
+    justify-content: center; /* Centra horizontalmente */
+    align-items: center; /* Centra verticalmente */
+    margin-top: 50px; /* Elimina el margen predeterminado del cuerpo */
+    height: 200px; /* Ajusta la altura según tus necesidades */
+    text-align: center; /* Centra el contenido horizontalmente */
+
+}
